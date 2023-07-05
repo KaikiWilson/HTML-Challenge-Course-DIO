@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main .content ol {
+    align-items: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main .content ol .indiceList {
+    width: max-content;
+    height: max-content;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 1199px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .main .content ol {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main .content ol .indiceList {
+        width: max-content;
+        height: max-content;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
